@@ -10,8 +10,8 @@ public class TestDemo {
 		System.out.println(Integer.toBinaryString(num));
 		
 		System.out.println("-------- 带符号右移32位  --------" );
-		System.out.println("十进制" + (num >> 31));
-		System.out.println("二进制" + Integer.toBinaryString(num >> 31));
+		System.out.println("十进制" + (num >> 32));
+		System.out.println("二进制" + Integer.toBinaryString(num >> 32));
 		
 		for(int i= 0 ; i< 32; ++i) {
 			forNum = forNum >> 1;
@@ -26,8 +26,11 @@ public class TestDemo {
 		System.out.println("十进制" + (num >>> 1));
 		System.out.println("二进制" + Integer.toBinaryString(num >>> 1));
 		
-		System.out.println("-------- 左移1位  --------" );
 		
+		System.out.println("-------- num的二进制  --------" );
+		System.out.println(Integer.toBinaryString(num));
+		
+		System.out.println("-------- 左移1位  --------" );
 		System.out.println("十进制" + (num << 1));
 		System.out.println("二进制" + Integer.toBinaryString(num << 1));
 		
