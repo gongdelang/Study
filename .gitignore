@@ -1,9 +1,5 @@
-*.log
-*.temp
-*.settings
 .*
+!.gitingore
 *bin
 */data
-*/code/.*
-*/code/*/.*
 java/code/corejava
