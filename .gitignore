@@ -1,5 +1,9 @@
 *.log
 *.temp
+*.settings
+.*
+*bin
 */data
 */code/.*
+*/code/*/.*
 java/code/corejava
