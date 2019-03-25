@@ -3,3 +3,11 @@
 *bin
 */data
 java/code/corejava
+
+x64
+x86
+*.sln
+*.db
+*.opendb
+*.vcxproj
+*.filters
