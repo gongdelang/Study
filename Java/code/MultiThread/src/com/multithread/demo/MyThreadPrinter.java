@@ -1,12 +1,12 @@
 package com.multithread.demo;
 
-public class MyThreadPrinter2 implements Runnable {   
+public class MyThreadPrinter implements Runnable {   
 	  
     private String name;   
     private Object next;   
     private Object self;   
   
-    private MyThreadPrinter2(String name, Object self, Object next) {   
+    private MyThreadPrinter(String name, Object self, Object next) {   
         this.name = name;   
         this.next = next;   
         this.self = self;   
@@ -37,10 +37,10 @@ public class MyThreadPrinter2 implements Runnable {
         Object b = new Object();   
         Object c = new Object();   
         Object d = new Object(); 
-        MyThreadPrinter2 pa = new MyThreadPrinter2("A", a, b);   
-        MyThreadPrinter2 pb = new MyThreadPrinter2("B", b, c);   
-        MyThreadPrinter2 pc = new MyThreadPrinter2("C", c, d);   
-        MyThreadPrinter2 pd = new MyThreadPrinter2("D", d, a);
+        MyThreadPrinter pa = new MyThreadPrinter("A", a, b);   
+        MyThreadPrinter pb = new MyThreadPrinter("B", b, c);   
+        MyThreadPrinter pc = new MyThreadPrinter("C", c, d);   
+        MyThreadPrinter pd = new MyThreadPrinter("D", d, a);
            
            
         new Thread(pa).start();
