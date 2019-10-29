@@ -12,3 +12,6 @@ x86
 *.vcxproj
 *.filters
 out
+webpack_sample/node_modules/
+python/demo/venv/Lib/
+python/demo/__pycache__/manage.cpython-38.pyc
