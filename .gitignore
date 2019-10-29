@@ -13,8 +13,9 @@ x86
 *.filters
 out
 webpack_sample/node_modules/
+
+# python
 python/demo/venv
-python/demo/__pycache__/manage.cpython-38.pyc
-python/demo/web/migrations/__pycache__/__init__.cpython-38.pyc
-python/demo/demo/__pycache__/urls.cpython-38.pyc
-python/demo/demo/__pycache__/wsgi.cpython-38.pyc
+*__pycache__
+Java/code/web/mvnw.cmd
+Java/code/web/mvnw
